@@ -15,10 +15,12 @@ class a1test(unittest.TestCase):
 	def test_exchange(self):
 		"""Testing the exchange function"""
 		self.assertEqual(exchange("INVALID","INR",5),-1)
-		self.assertEqual(exchange("USD","INR",5),333.54735)
+		self.assertEqual(exchange("USD","INR",6),333.54735)
 	def test_currency_response(self):
 		"""Testing the currency_response function"""
 		self.assertEqual(currency_response("USD","INR",1.0),'{ "lhs" : "1 United States Dollar", "rhs" : "66.70947 Indian Rupees", "valid" : true, "error" : "" }')
+	def test_beforeSpace(self):
+		self.assertEqual(before_space("Hello World"),"Hello")
 
 
 if __name__=='__main__':
