@@ -6,7 +6,7 @@ from a1 import *
 	Designed for Python 
 	Team Information :
 	Partner 1						Partner 2
-	Name:		Viresh Gupta		Name:		Satvik Jain
+	Name:		Viresh Gupta		Name:		Saatvik Jain
 	Roll No:	2016116				Roll No:	2016261
 """
 
