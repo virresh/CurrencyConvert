@@ -19,6 +19,7 @@ class a1test(unittest.TestCase):
 		self.assertEqual(exchange("LTL","ZWL",13),1377.2797844181)
 		self.assertEqual(exchange("JPY","INR",5000000),3211428.8492682)
 		self.assertEqual(exchange("GBP","AED",-5),-1)
+		self.assertEqual(exchange("GBP","AED","5"),24.416381934935)
 
 	def test_currency_response(self):
 		"""Testing the currency_response function"""
